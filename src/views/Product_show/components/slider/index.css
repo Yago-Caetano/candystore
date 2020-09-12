@@ -1,0 +1,27 @@
+
+
+@media screen and (max-width:900px)
+{
+    .mslider-item{
+        margin-top: 35%;
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+
+@media screen and (min-width:900px)
+{
+    .mslider-item{
+        max-height: 75vh;
+        margin: auto;
+        
+    }
+}
+
+
+.mslider-container{
+    display: block;
+}

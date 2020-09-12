@@ -1,0 +1,20 @@
+.white{
+    background-color: white;
+}
+
+.green{
+    background: linear-gradient(90deg, rgba(232, 249, 246, 0.67) 0.53%, #E8F9F6 101.67%);
+}
+
+.main-productS-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+}
+
+
+body,html{
+    margin:0px;
+    padding: 0px;
+}

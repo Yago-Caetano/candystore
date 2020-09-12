@@ -1,0 +1,121 @@
+@media screen and (min-width:901px)
+{
+    
+    .order-container{
+        display: flex;
+        flex-direction: row;
+        justify-items: space-between;
+        margin-right: 4%;
+        margin-left: 4%;
+        max-height: 50vh; 
+    }
+        
+    .shipment-container{
+        display: flex;
+        flex-direction: row;
+        justify-items: space-between;
+        margin-left: 4%;
+        margin-right: 4%;
+        max-height: 50vh;
+    }
+    
+    .title-hiw{
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 4em;
+        font-weight: 400;    
+    }
+    
+    .text-hiw{
+        align-self: center;
+        text-align: justify;
+        margin-left: 24px;
+    }
+    
+    .text-hiw li{
+        padding-top: 12px;
+        word-wrap: normal;
+        font-size: 18px;
+        flex-grow: 1;
+    }
+    
+    .img-hiw{
+        flex-grow: 1;
+        max-width: 40vw;
+        min-width: 40vw;
+    }
+
+}
+
+
+@media screen and (max-width:900px)
+{
+
+    .order-container{
+        display: flex;
+        flex-direction: row;
+        justify-items: space-between;
+        margin: 0 4% 4% 4%;
+        max-height: 50vh;
+        min-height: 40vh;
+        background-color: #fce4ec;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        filter: blur(0.2px);
+        border-radius: 5px;     
+    }
+    
+    
+    .shipment-container{
+        display: flex;
+        flex-direction: row;
+        justify-items: space-between;
+        margin-left: 4%;
+        margin-right: 4%;
+        min-height: 40vh;
+        max-height: 50vh;
+        background-color:#e1f5fe;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        filter: blur(0.2px);
+        border-radius: 5px;
+    }
+    
+    .title-hiw{
+        text-align: start;
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 3em;
+        font-weight: 400;    
+    }
+    
+    .text-hiw{
+        align-self: center;
+        text-align: justify;
+        margin-left: 20px;
+    }
+    
+    .text-hiw li{
+        padding-top: 12px;
+        padding-right: 12px;
+        word-wrap: normal;
+        font-size: 18px;
+        flex-grow: 1;
+    }
+    
+    .img-hiw{
+        display: none;
+    }
+
+}
+
+.text-hiw{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container-hiw{
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    background: white;
+
+}

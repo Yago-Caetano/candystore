@@ -1,0 +1,30 @@
+@media screen and (max-width:900px)
+{
+    .icones{
+        padding: 8px;
+        height: 7vh;
+        width: 7vh;
+    }
+}
+
+@media screen and (min-width:901px)
+{
+    .icones{
+        padding: 12px;
+        height: 8vh;
+        width: 8vh;
+    }
+}
+.topnav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-main{
+    background: linear-gradient(90deg, rgba(232, 249, 246, 0.67) 0.53%, #E8F9F6 101.67%);
+}
+
+.icones:hover{
+    opacity: 60%;
+}
