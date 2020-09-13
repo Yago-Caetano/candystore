@@ -18,6 +18,7 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
+    "prestart": "npm i",
     "start": "node server",
     "postinstall": "npm run build",
     "build": "react-scripts build",
